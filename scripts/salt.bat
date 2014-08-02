@@ -1,5 +1,5 @@
 if not exist "C:\Windows\Temp\salt64.exe" (
-  powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://docs.saltstack.com/downloads/Salt-Minion-2014.1.3-1-AMD64-Setup.exe', 'C:\Windows\Temp\salt64.exe')" <NUL
+  powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://repo.saltstack.com/windows/Salt-Minion-2016.3.1-AMD64-Setup.exe', 'C:\Windows\Temp\salt64.exe')" <NUL
 )
 
 :: http://docs.saltstack.com/en/latest/topics/installation/windows.html
