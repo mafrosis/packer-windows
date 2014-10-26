@@ -25,8 +25,8 @@
       "vmx_data": {
         "RemoteDisplay.vnc.enabled": "false",
         "RemoteDisplay.vnc.port": "5900",
-        "memsize": "2048",
-        "numvcpus": "2",
+        "memsize": "4096",
+        "numvcpus": "4",
         "scsi0.virtualDev": "lsisas1068"
       }
     },
@@ -128,8 +128,7 @@
     {
       "type": "vagrant",
       "keep_input_artifact": false,
-      "output": "windows_2012_r2_{{.Provider}}.box",
-      "vagrantfile_template": "vagrantfile-windows_2012_r2.template"
+      "output": "windows_2012_r2_{{.Provider}}.box"
     }
   ],
   "variables": {
