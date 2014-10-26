@@ -119,8 +119,7 @@
         "./scripts/salt.bat",
         "./scripts/vagrant-ssh.bat",
         "./scripts/disable-auto-logon.bat",
-        "./scripts/enable-rdp.bat",
-        "./scripts/compact.bat"
+        "./scripts/enable-rdp.bat"
       ]
     }
   ],
